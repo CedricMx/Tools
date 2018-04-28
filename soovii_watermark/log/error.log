@@ -1,0 +1,12 @@
+2018-04-25 13:24:00,596 - error_log - DEBUG - test-debug
+2018-04-25 13:24:00,597 - error_log - INFO - test-info
+2018-04-25 13:24:00,597 - error_log - WARNING - test-warn
+2018-04-25 13:24:00,597 - error_log - ERROR - test-error
+2018-04-25 13:28:12,281 - error_log - DEBUG - test-debug
+2018-04-25 13:28:12,281 - error_log - INFO - test-info
+2018-04-25 13:28:12,281 - error_log - WARNING - test-warn
+2018-04-25 13:28:12,281 - error_log - ERROR - test-error
+2018-04-25 13:34:02 - error_log - DEBUG - test-debug
+2018-04-25 13:34:02 - error_log - INFO - test-info
+2018-04-25 13:34:02 - error_log - WARNING - test-warn
+2018-04-25 13:34:02 - error_log - ERROR - test-error

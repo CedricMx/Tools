@@ -1,0 +1,39 @@
+接口说明:
+
+1.
+功能:
+    用文字给图片或者视频打水印
+URL:
+    "/imagevideowatermarkbytext"
+传入参数:
+    data:{
+        'inputpath' : 'D:/folder/file',  # 需打水印文件路径
+        'outputpath' : 'D:/resultfolder/resultfile',  # 输出文件路径
+        'text' : 'sometext',  # 水印文字内容
+        'position' : 'Center',  # 水印位置 默认为中心 'Center',
+                                                左上 'LeftUp',
+                                                左下 'LeftBottom',
+                                                右上 'RightUp',
+                                                右下 'RightBottom'
+        'opacity' : 'light',  # 水印透明度 默认为 较浅 'light',
+                                                 中度 'mid',
+                                                 较深 'heavy'
+    }
+返回:
+    成功: {"status": 1, "msg": e.args, "data": "", "result": 0}
+    失败: {"status": 1, "msg": e.args, "data": "", "result": 0}
+
+2.
+功能:
+    用文字给图片或者视频打水印
+URL:
+    "/pdfwatermarkbytext"
+传入参数:
+    data:{
+        'inputpath' : 'D:/folder/file',  # 需打水印文件路径
+        'outputpath' : 'D:/resultfolder/resultfile',  # 输出文件路径
+        'text' : 'sometext',  # 水印文字内容
+    }
+返回:
+    成功: {"status": 1, "msg": e.args, "data": "", "result": 0}
+    失败: {"status": 1, "msg": e.args, "data": "", "result": 0}

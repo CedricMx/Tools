@@ -1,0 +1,1 @@
+virtualenv    -p /home/chendezhi/bin/python3 Œª÷√
