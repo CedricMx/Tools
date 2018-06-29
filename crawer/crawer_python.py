@@ -69,3 +69,4 @@ def getImg(dataList, localPath):
 if __name__ == '__main__':
     dataList = getManyPages('李晨',10)  # 参数1:关键字，参数2:要下载的页数
     getImg(dataList,'D:/Cedric/TD/Tools/crawer/lichen') # 参数2:指定保存的路径
+
